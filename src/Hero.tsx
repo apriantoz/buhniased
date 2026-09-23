@@ -1,12 +1,14 @@
+import { Badge } from "@radix-ui/themes";
+
 export default function HomeHero() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-gray-900 to-black text-white px-6">
       <div className="text-center max-w-3xl space-y-6">
         
         {/* Badge / Pill kecil */}
-        <span className="inline-block px-3 py-1 text-xs font-semibold tracking-wider text-indigo-400 uppercase bg-indigo-950/60 border border-indigo-800 rounded-full">
+        <Badge color="orange" size="3">
           Selamat Datang di Proyek Baru
-        </span>
+        </Badge>
 
         {/* Judul Utama / Brand */}
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight">
